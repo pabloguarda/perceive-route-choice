@@ -1,0 +1,1051 @@
+EXPERIMENTALCONDITION,PARTICIPANTID,COMPUTERID,EXPERIMENT,DPS,BLOCKDP,DP,ABSORDER,RELORDER,DATE,TIME,NDESCRIPTIVETRIALS,LEARNINGMODE,PREFERREDROUTE,CONTROLROUTE_C,TREATMENTROUTE_T,PREFERREDDIRECTION,CONTROLALTERNATIVE_C,TREATMENTALTERNATIVE_T,PREFERREDALTERNATIVE_T
+descriptiveControl,75,A00,1,2,1,1,1,1,19072017,132814,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,75,A00,3,6,5,13,2,2,19072017,132823,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,75,A00,2,6,1,3,3,3,19072017,132836,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,75,A00,2,6,5,7,4,4,19072017,132846,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,75,A00,2,6,4,6,5,5,19072017,132855,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,75,A00,3,6,2,10,6,6,19072017,132908,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,75,A00,3,6,1,9,7,7,19072017,132915,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,75,A00,2,6,3,5,8,8,19072017,132923,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,75,A00,1,2,2,2,9,9,19072017,132929,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,75,A00,3,6,4,12,10,10,19072017,132935,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,75,A00,3,6,3,11,11,11,19072017,132940,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,75,A00,2,6,6,8,12,12,19072017,132948,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,75,A00,3,6,6,14,13,13,19072017,133000,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,75,A00,2,6,2,4,14,14,19072017,133006,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,74,F00,3,6,3,11,1,1,19072017,122639,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,74,F00,3,6,2,10,2,2,19072017,122648,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,74,F00,2,6,4,6,3,3,19072017,122653,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,74,F00,3,6,5,13,4,4,19072017,122657,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,74,F00,1,2,2,2,5,5,19072017,122702,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,74,F00,3,6,1,9,6,6,19072017,122708,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,74,F00,2,6,1,3,7,7,19072017,122712,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,74,F00,2,6,5,7,8,8,19072017,122717,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,74,F00,2,6,3,5,9,9,19072017,122720,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,74,F00,3,6,4,12,10,10,19072017,122725,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,74,F00,3,6,6,14,11,11,19072017,122731,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,74,F00,2,6,6,8,12,12,19072017,122735,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,74,F00,1,2,1,1,13,13,19072017,122737,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,74,F00,2,6,2,4,14,14,19072017,122739,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,73,C00,3,6,3,11,1,1,19072017,121309,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,73,C00,2,6,1,3,2,2,19072017,121326,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,73,C00,3,6,2,10,3,3,19072017,121330,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,73,C00,3,6,6,14,4,4,19072017,121342,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,73,C00,2,6,5,7,5,5,19072017,121348,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,73,C00,3,6,4,12,6,6,19072017,121358,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,73,C00,3,6,5,13,7,7,19072017,121403,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,73,C00,3,6,1,9,8,8,19072017,121405,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,73,C00,1,2,1,1,9,9,19072017,121410,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,73,C00,2,6,6,8,10,10,19072017,121412,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,73,C00,2,6,4,6,11,11,19072017,121414,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,73,C00,2,6,3,5,12,12,19072017,121425,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,73,C00,2,6,2,4,13,13,19072017,121429,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,73,C00,1,2,2,2,14,14,19072017,121431,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,72,B00,2,6,3,5,1,1,19072017,123130,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,72,B00,1,2,1,1,2,2,19072017,123137,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,72,B00,3,6,6,14,3,3,19072017,123152,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,72,B00,2,6,4,6,4,4,19072017,123156,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,72,B00,2,6,1,3,5,5,19072017,123201,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,72,B00,3,6,2,10,6,6,19072017,123209,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveTreatmentCondition1,72,B00,3,6,4,12,7,7,19072017,123213,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,72,B00,2,6,6,8,8,8,19072017,123219,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,72,B00,1,2,2,2,9,9,19072017,123224,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,72,B00,3,6,3,11,10,10,19072017,123227,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,72,B00,2,6,2,4,11,11,19072017,123231,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,72,B00,3,6,1,9,12,12,19072017,123234,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,72,B00,2,6,5,7,13,13,19072017,123238,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,72,B00,3,6,5,13,14,14,19072017,123243,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,71,A00,3,6,5,13,1,1,19072017,124135,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,71,A00,2,6,3,5,2,2,19072017,124152,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,71,A00,1,2,2,2,3,3,19072017,124200,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,71,A00,3,6,6,14,4,4,19072017,124240,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,71,A00,3,6,1,9,5,5,19072017,124251,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,71,A00,2,6,1,3,6,6,19072017,124258,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,71,A00,3,6,2,10,7,7,19072017,124308,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,71,A00,1,2,1,1,8,8,19072017,124316,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,71,A00,3,6,4,12,9,9,19072017,124325,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,71,A00,2,6,4,6,10,10,19072017,124334,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,71,A00,2,6,6,8,11,11,19072017,124342,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,71,A00,2,6,5,7,12,12,19072017,124347,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,71,A00,3,6,3,11,13,13,19072017,124416,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,71,A00,2,6,2,4,14,14,19072017,124421,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,70,C00,1,2,1,1,1,1,19072017,103955,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,70,C00,2,6,6,8,2,2,19072017,104002,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,70,C00,3,6,6,14,3,3,19072017,104031,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,70,C00,2,6,5,7,4,4,19072017,104038,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,70,C00,3,6,5,13,5,5,19072017,104048,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,70,C00,3,6,2,10,6,6,19072017,104101,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,70,C00,2,6,3,5,7,7,19072017,104114,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,70,C00,2,6,2,4,8,8,19072017,104119,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,70,C00,3,6,4,12,9,9,19072017,104128,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,70,C00,1,2,2,2,10,10,19072017,104135,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,70,C00,3,6,1,9,11,11,19072017,104157,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,70,C00,3,6,3,11,12,12,19072017,104222,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,70,C00,2,6,1,3,13,13,19072017,104227,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,70,C00,2,6,4,6,14,14,19072017,104232,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,69,B00,2,6,4,6,1,1,19072017,104103,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,69,B00,3,6,6,14,2,2,19072017,104112,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,69,B00,3,6,1,9,3,3,19072017,104121,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,69,B00,1,2,2,2,4,4,19072017,104128,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,69,B00,2,6,5,7,5,5,19072017,104138,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,69,B00,2,6,2,4,6,6,19072017,104144,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,69,B00,3,6,4,12,7,7,19072017,104149,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,69,B00,3,6,2,10,8,8,19072017,104200,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,69,B00,1,2,1,1,9,9,19072017,104207,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,69,B00,2,6,3,5,10,10,19072017,104213,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,69,B00,3,6,3,11,11,11,19072017,104224,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,69,B00,2,6,1,3,12,12,19072017,104229,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,69,B00,2,6,6,8,13,13,19072017,104233,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,69,B00,3,6,5,13,14,14,19072017,104243,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,68,A00,2,6,5,7,1,1,19072017,103534,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,68,A00,2,6,6,8,2,2,19072017,103539,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,68,A00,3,6,6,14,3,3,19072017,103551,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,68,A00,2,6,3,5,4,4,19072017,103559,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,68,A00,1,2,1,1,5,5,19072017,103606,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,68,A00,3,6,2,10,6,6,19072017,103615,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,68,A00,2,6,2,4,7,7,19072017,103622,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,68,A00,3,6,4,12,8,8,19072017,103636,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,68,A00,2,6,4,6,9,9,19072017,103647,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,68,A00,2,6,1,3,10,10,19072017,103655,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,68,A00,3,6,3,11,11,11,19072017,103705,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,68,A00,3,6,1,9,12,12,19072017,103714,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,68,A00,1,2,2,2,13,13,19072017,103723,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,68,A00,3,6,5,13,14,14,19072017,103735,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,67,C00,3,6,1,9,1,1,18072017,183405,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,67,C00,2,6,3,5,2,2,18072017,183440,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,67,C00,3,6,6,14,3,3,18072017,183456,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,67,C00,2,6,6,8,4,4,18072017,183506,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,67,C00,3,6,4,12,5,5,18072017,183526,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,67,C00,1,2,2,2,6,6,18072017,183537,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,67,C00,2,6,2,4,7,7,18072017,183547,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,67,C00,3,6,3,11,8,8,18072017,183611,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,67,C00,3,6,2,10,9,9,18072017,183622,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,67,C00,2,6,4,6,10,10,18072017,183633,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,67,C00,2,6,1,3,11,11,18072017,183642,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,67,C00,2,6,5,7,12,12,18072017,183652,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,67,C00,3,6,5,13,13,13,18072017,183658,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,67,C00,1,2,1,1,14,14,18072017,183707,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,66,B00,2,6,1,3,1,1,18072017,190020,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,66,B00,2,6,5,7,2,2,18072017,190030,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,66,B00,3,6,6,14,3,3,18072017,190049,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,66,B00,2,6,4,6,4,4,18072017,190102,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,66,B00,3,6,4,12,5,5,18072017,190108,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,66,B00,2,6,6,8,6,6,18072017,190115,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveTreatmentCondition1,66,B00,2,6,2,4,7,7,18072017,190119,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,66,B00,1,2,2,2,8,8,18072017,190127,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,66,B00,3,6,3,11,9,9,18072017,190146,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,66,B00,3,6,5,13,10,10,18072017,190150,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,66,B00,3,6,2,10,11,11,18072017,190154,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,66,B00,1,2,1,1,12,12,18072017,190157,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,66,B00,3,6,1,9,13,13,18072017,190203,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveTreatmentCondition1,66,B00,2,6,3,5,14,14,18072017,190208,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,65,A00,3,6,5,13,1,1,18072017,191304,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,65,A00,2,6,4,6,2,2,18072017,191323,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,65,A00,2,6,3,5,3,3,18072017,191342,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,65,A00,3,6,3,11,4,4,18072017,191355,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,65,A00,3,6,2,10,5,5,18072017,191416,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,65,A00,1,2,1,1,6,6,18072017,191438,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,65,A00,1,2,2,2,7,7,18072017,191504,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,65,A00,2,6,1,3,8,8,18072017,191519,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,65,A00,3,6,6,14,9,9,18072017,191530,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,65,A00,2,6,6,8,10,10,18072017,191542,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,65,A00,3,6,1,9,11,11,18072017,191611,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,65,A00,2,6,5,7,12,12,18072017,191620,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,65,A00,3,6,4,12,13,13,18072017,191631,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,65,A00,2,6,2,4,14,14,18072017,191637,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,64,F00,2,6,3,5,1,1,18072017,162620,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveTreatmentCondition1,64,F00,3,6,4,12,2,2,18072017,162631,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,64,F00,2,6,6,8,3,3,18072017,162638,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,64,F00,2,6,1,3,4,4,18072017,162645,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,64,F00,2,6,5,7,5,5,18072017,162654,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,64,F00,1,2,2,2,6,6,18072017,162657,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,64,F00,3,6,1,9,7,7,18072017,162705,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,64,F00,3,6,2,10,8,8,18072017,162710,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,64,F00,1,2,1,1,9,9,18072017,162713,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,64,F00,2,6,2,4,10,10,18072017,162717,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,64,F00,3,6,3,11,11,11,18072017,162727,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,64,F00,3,6,5,13,12,12,18072017,162732,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,64,F00,2,6,4,6,13,13,18072017,162735,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,64,F00,3,6,6,14,14,14,18072017,162742,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,63,C00,2,6,3,5,1,1,18072017,165848,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,63,C00,2,6,5,7,2,2,18072017,165856,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,63,C00,3,6,1,9,3,3,18072017,165921,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,63,C00,3,6,6,14,4,4,18072017,165957,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,63,C00,2,6,4,6,5,5,18072017,170001,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,63,C00,3,6,3,11,6,6,18072017,170004,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,63,C00,2,6,1,3,7,7,18072017,170010,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,63,C00,3,6,5,13,8,8,18072017,170017,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,63,C00,1,2,1,1,9,9,18072017,170023,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,63,C00,2,6,2,4,10,10,18072017,170031,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,63,C00,2,6,6,8,11,11,18072017,170034,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,63,C00,3,6,2,10,12,12,18072017,170038,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,63,C00,3,6,4,12,13,13,18072017,170046,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,63,C00,1,2,2,2,14,14,18072017,170051,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,62,B00,3,6,6,14,1,1,18072017,170321,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,62,B00,3,6,4,12,2,2,18072017,170341,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,62,B00,1,2,2,2,3,3,18072017,170347,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,62,B00,2,6,4,6,4,4,18072017,170358,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,62,B00,2,6,1,3,5,5,18072017,170406,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,62,B00,2,6,6,8,6,6,18072017,170412,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,62,B00,3,6,3,11,7,7,18072017,170427,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,62,B00,3,6,2,10,8,8,18072017,170441,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,62,B00,2,6,3,5,9,9,18072017,170445,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,62,B00,3,6,5,13,10,10,18072017,170455,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,62,B00,2,6,5,7,11,11,18072017,170459,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,62,B00,2,6,2,4,12,12,18072017,170502,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,62,B00,1,2,1,1,13,13,18072017,170513,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,62,B00,3,6,1,9,14,14,18072017,170523,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,61,A00,3,6,6,14,1,1,18072017,165355,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,61,A00,1,2,1,1,2,2,18072017,165403,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,61,A00,3,6,2,10,3,3,18072017,165411,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,61,A00,3,6,5,13,4,4,18072017,165423,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,61,A00,2,6,2,4,5,5,18072017,165433,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,61,A00,2,6,1,3,6,6,18072017,165442,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,61,A00,3,6,3,11,7,7,18072017,165454,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,61,A00,3,6,4,12,8,8,18072017,165512,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,61,A00,3,6,1,9,9,9,18072017,165519,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,61,A00,2,6,4,6,10,10,18072017,165524,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,61,A00,1,2,2,2,11,11,18072017,165527,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,61,A00,2,6,3,5,12,12,18072017,165530,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,61,A00,2,6,6,8,13,13,18072017,165534,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,61,A00,2,6,5,7,14,14,18072017,165537,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,60,F00,2,6,2,4,1,1,18072017,153322,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,60,F00,3,6,4,12,2,2,18072017,153337,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,60,F00,3,6,3,11,3,3,18072017,153406,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveTreatmentCondition1,60,F00,2,6,6,8,4,4,18072017,153409,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveTreatmentCondition1,60,F00,3,6,1,9,5,5,18072017,153416,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,60,F00,1,2,1,1,6,6,18072017,153419,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,60,F00,2,6,1,3,7,7,18072017,153421,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,60,F00,3,6,2,10,8,8,18072017,153429,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,60,F00,2,6,4,6,9,9,18072017,153434,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,60,F00,1,2,2,2,10,10,18072017,153438,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,60,F00,3,6,6,14,11,11,18072017,153444,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,60,F00,2,6,3,5,12,12,18072017,153447,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,60,F00,2,6,5,7,13,13,18072017,153449,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveTreatmentCondition1,60,F00,3,6,5,13,14,14,18072017,153453,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,59,C00,1,2,1,1,1,1,18072017,153752,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,59,C00,3,6,3,11,2,2,18072017,153822,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,59,C00,1,2,2,2,3,3,18072017,153829,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,59,C00,3,6,4,12,4,4,18072017,153848,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,59,C00,2,6,3,5,5,5,18072017,153906,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,59,C00,2,6,6,8,6,6,18072017,153943,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,59,C00,2,6,1,3,7,7,18072017,153953,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,59,C00,2,6,4,6,8,8,18072017,154011,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,59,C00,3,6,5,13,9,9,18072017,154024,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,59,C00,3,6,2,10,10,10,18072017,154031,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,59,C00,2,6,5,7,11,11,18072017,154037,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,59,C00,3,6,1,9,12,12,18072017,154055,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,59,C00,3,6,6,14,13,13,18072017,154104,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,59,C00,2,6,2,4,14,14,18072017,154112,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,58,B00,2,6,2,4,1,1,18072017,153223,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,58,B00,3,6,1,9,2,2,18072017,153233,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,58,B00,2,6,4,6,3,3,18072017,153242,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveTreatmentCondition1,58,B00,2,6,6,8,4,4,18072017,153251,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,58,B00,2,6,1,3,5,5,18072017,153300,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveTreatmentCondition1,58,B00,1,2,1,1,6,6,18072017,153304,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,58,B00,3,6,2,10,7,7,18072017,153321,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,58,B00,2,6,3,5,8,8,18072017,153324,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,58,B00,2,6,5,7,9,9,18072017,153327,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,58,B00,3,6,6,14,10,10,18072017,153333,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,58,B00,1,2,2,2,11,11,18072017,153336,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,58,B00,3,6,5,13,12,12,18072017,153342,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,58,B00,3,6,4,12,13,13,18072017,153353,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,58,B00,3,6,3,11,14,14,18072017,153403,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,57,A00,2,6,6,8,1,1,18072017,152612,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,57,A00,2,6,1,3,2,2,18072017,152618,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,57,A00,1,2,2,2,3,3,18072017,152622,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,57,A00,3,6,3,11,4,4,18072017,152633,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,57,A00,2,6,4,6,5,5,18072017,152636,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,57,A00,2,6,2,4,6,6,18072017,152640,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,57,A00,2,6,5,7,7,7,18072017,152643,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,57,A00,3,6,4,12,8,8,18072017,152650,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,57,A00,3,6,5,13,9,9,18072017,152653,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,57,A00,3,6,6,14,10,10,18072017,152700,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,57,A00,2,6,3,5,11,11,18072017,152702,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,57,A00,3,6,2,10,12,12,18072017,152706,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,57,A00,1,2,1,1,13,13,18072017,152709,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,57,A00,3,6,1,9,14,14,18072017,152715,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,56,C00,2,6,5,7,1,1,18072017,141848,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,56,C00,1,2,1,1,2,2,18072017,141850,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,56,C00,3,6,4,12,3,3,18072017,141911,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,56,C00,2,6,3,5,4,4,18072017,141917,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,56,C00,2,6,1,3,5,5,18072017,141921,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,56,C00,2,6,4,6,6,6,18072017,141924,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,56,C00,1,2,2,2,7,7,18072017,141926,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,56,C00,2,6,2,4,8,8,18072017,141930,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,56,C00,3,6,3,11,9,9,18072017,141943,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,56,C00,2,6,6,8,10,10,18072017,141947,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,56,C00,3,6,5,13,11,11,18072017,141955,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,56,C00,3,6,2,10,12,12,18072017,142002,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,56,C00,3,6,1,9,13,13,18072017,142015,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,56,C00,3,6,6,14,14,14,18072017,142027,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,55,B00,2,6,6,8,1,1,18072017,143311,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,55,B00,3,6,4,12,2,2,18072017,143352,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,55,B00,3,6,3,11,3,3,18072017,143415,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,55,B00,2,6,3,5,4,4,18072017,143432,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,55,B00,3,6,2,10,5,5,18072017,143442,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,55,B00,2,6,4,6,6,6,18072017,143450,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,55,B00,1,2,2,2,7,7,18072017,143456,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,55,B00,1,2,1,1,8,8,18072017,143502,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,55,B00,3,6,6,14,9,9,18072017,143526,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,55,B00,2,6,5,7,10,10,18072017,143536,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,55,B00,3,6,1,9,11,11,18072017,143544,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,55,B00,2,6,1,3,12,12,18072017,143602,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,55,B00,3,6,5,13,13,13,18072017,143618,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,55,B00,2,6,2,4,14,14,18072017,143632,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,54,A00,3,6,3,11,1,1,18072017,143514,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,54,A00,2,6,5,7,2,2,18072017,143546,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,54,A00,2,6,2,4,3,3,18072017,143554,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,54,A00,3,6,1,9,4,4,18072017,143608,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,54,A00,2,6,4,6,5,5,18072017,143613,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveTreatmentCondition1,54,A00,2,6,1,3,6,6,18072017,143617,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveTreatmentCondition1,54,A00,3,6,5,13,7,7,18072017,143625,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,54,A00,2,6,6,8,8,8,18072017,143628,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,54,A00,3,6,4,12,9,9,18072017,143642,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,54,A00,3,6,6,14,10,10,18072017,143651,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,54,A00,1,2,1,1,11,11,18072017,143657,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,54,A00,1,2,2,2,12,12,18072017,143701,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,54,A00,3,6,2,10,13,13,18072017,143706,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,54,A00,2,6,3,5,14,14,18072017,143715,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,53,F00,2,6,5,7,1,1,18072017,122537,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,53,F00,1,2,2,2,2,2,18072017,122543,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,53,F00,3,6,5,13,3,3,18072017,122550,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,53,F00,2,6,6,8,4,4,18072017,122602,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,53,F00,2,6,2,4,5,5,18072017,122608,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,53,F00,1,2,1,1,6,6,18072017,122612,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,53,F00,2,6,4,6,7,7,18072017,122615,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,53,F00,3,6,6,14,8,8,18072017,122631,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,53,F00,2,6,3,5,9,9,18072017,122634,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,53,F00,3,6,4,12,10,10,18072017,122640,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,53,F00,2,6,1,3,11,11,18072017,122644,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,53,F00,3,6,3,11,12,12,18072017,122657,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,53,F00,3,6,1,9,13,13,18072017,122703,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,53,F00,3,6,2,10,14,14,18072017,122714,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,52,C00,2,6,5,7,1,1,18072017,122107,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,52,C00,1,2,2,2,2,2,18072017,122112,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,52,C00,1,2,1,1,3,3,18072017,122120,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,52,C00,3,6,2,10,4,4,18072017,122127,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,52,C00,3,6,5,13,5,5,18072017,122130,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,52,C00,2,6,3,5,6,6,18072017,122137,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveTreatmentCondition1,52,C00,3,6,3,11,7,7,18072017,122141,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,52,C00,3,6,1,9,8,8,18072017,122146,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,52,C00,3,6,6,14,9,9,18072017,122156,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,52,C00,3,6,4,12,10,10,18072017,122200,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,52,C00,2,6,2,4,11,11,18072017,122204,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,52,C00,2,6,6,8,12,12,18072017,122207,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,52,C00,2,6,1,3,13,13,18072017,122210,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,52,C00,2,6,4,6,14,14,18072017,122213,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,51,B00,2,6,3,5,1,1,18072017,122128,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,51,B00,2,6,4,6,2,2,18072017,122136,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,51,B00,1,2,2,2,3,3,18072017,122145,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,51,B00,2,6,6,8,4,4,18072017,122152,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,51,B00,3,6,1,9,5,5,18072017,122202,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,51,B00,2,6,5,7,6,6,18072017,122207,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,51,B00,3,6,2,10,7,7,18072017,122215,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,51,B00,2,6,2,4,8,8,18072017,122220,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,51,B00,3,6,3,11,9,9,18072017,122242,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,51,B00,3,6,4,12,10,10,18072017,122251,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,51,B00,1,2,1,1,11,11,18072017,122304,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,51,B00,2,6,1,3,12,12,18072017,122308,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,51,B00,3,6,6,14,13,13,18072017,122321,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,51,B00,3,6,5,13,14,14,18072017,122327,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,50,A00,2,6,6,8,1,1,18072017,124021,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,50,A00,3,6,5,13,2,2,18072017,124056,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,50,A00,3,6,2,10,3,3,18072017,124101,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,50,A00,2,6,3,5,4,4,18072017,124105,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,50,A00,3,6,6,14,5,5,18072017,124109,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,50,A00,3,6,1,9,6,6,18072017,124111,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveTreatmentCondition1,50,A00,2,6,2,4,7,7,18072017,124114,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,50,A00,3,6,4,12,8,8,18072017,124116,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,50,A00,1,2,2,2,9,9,18072017,124118,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,50,A00,2,6,5,7,10,10,18072017,124120,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,50,A00,3,6,3,11,11,11,18072017,124122,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,50,A00,1,2,1,1,12,12,18072017,124124,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,50,A00,2,6,4,6,13,13,18072017,124128,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,50,A00,2,6,1,3,14,14,18072017,124129,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,49,F00,3,6,5,13,1,1,18072017,105107,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,49,F00,3,6,2,10,2,2,18072017,105121,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,49,F00,3,6,6,14,3,3,18072017,105151,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,49,F00,1,2,1,1,4,4,18072017,105205,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,49,F00,3,6,4,12,5,5,18072017,105220,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,49,F00,3,6,1,9,6,6,18072017,105235,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,49,F00,2,6,3,5,7,7,18072017,105253,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,49,F00,2,6,5,7,8,8,18072017,105310,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,49,F00,2,6,1,3,9,9,18072017,105319,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,49,F00,1,2,2,2,10,10,18072017,105327,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,49,F00,2,6,6,8,11,11,18072017,105341,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,49,F00,3,6,3,11,12,12,18072017,105417,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,49,F00,2,6,2,4,13,13,18072017,105424,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,49,F00,2,6,4,6,14,14,18072017,105435,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveTreatmentCondition1,48,C00,1,2,1,1,1,1,18072017,103203,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,48,C00,3,6,6,14,2,2,18072017,103242,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,48,C00,3,6,1,9,3,3,18072017,103248,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,48,C00,3,6,2,10,4,4,18072017,103255,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,48,C00,2,6,3,5,5,5,18072017,103300,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,48,C00,2,6,6,8,6,6,18072017,103303,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,48,C00,3,6,3,11,7,7,18072017,103308,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,48,C00,1,2,2,2,8,8,18072017,103312,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,48,C00,2,6,4,6,9,9,18072017,103321,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,48,C00,2,6,1,3,10,10,18072017,103326,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,48,C00,3,6,4,12,11,11,18072017,103333,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveTreatmentCondition1,48,C00,2,6,5,7,12,12,18072017,103337,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,48,C00,2,6,2,4,13,13,18072017,103341,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,48,C00,3,6,5,13,14,14,18072017,103347,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,47,B00,1,2,1,1,1,1,18072017,103500,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,47,B00,3,6,2,10,2,2,18072017,103505,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,47,B00,2,6,2,4,3,3,18072017,103511,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,47,B00,2,6,4,6,4,4,18072017,103517,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,47,B00,2,6,3,5,5,5,18072017,103523,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,47,B00,3,6,4,12,6,6,18072017,103534,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,47,B00,2,6,5,7,7,7,18072017,103537,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,47,B00,3,6,5,13,8,8,18072017,103541,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,47,B00,3,6,1,9,9,9,18072017,103546,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,47,B00,3,6,3,11,10,10,18072017,103550,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,47,B00,2,6,1,3,11,11,18072017,103553,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,47,B00,1,2,2,2,12,12,18072017,103555,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,47,B00,3,6,6,14,13,13,18072017,103558,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,47,B00,2,6,6,8,14,14,18072017,103602,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,46,A00,2,6,6,8,1,1,18072017,103001,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,46,A00,2,6,1,3,2,2,18072017,103008,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,46,A00,2,6,4,6,3,3,18072017,103012,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,46,A00,1,2,1,1,4,4,18072017,103016,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,46,A00,1,2,2,2,5,5,18072017,103021,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,46,A00,3,6,1,9,6,6,18072017,103024,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,46,A00,3,6,3,11,7,7,18072017,103028,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,46,A00,2,6,2,4,8,8,18072017,103033,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,46,A00,3,6,5,13,9,9,18072017,103050,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,46,A00,3,6,4,12,10,10,18072017,103108,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,46,A00,3,6,6,14,11,11,18072017,103122,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,46,A00,2,6,3,5,12,12,18072017,103128,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,46,A00,3,6,2,10,13,13,18072017,103141,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,46,A00,2,6,5,7,14,14,18072017,103146,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,45,F00,2,6,2,4,1,1,18072017,92914,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,45,F00,2,6,5,7,2,2,18072017,92927,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,45,F00,3,6,5,13,3,3,18072017,92946,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,45,F00,2,6,1,3,4,4,18072017,93006,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,45,F00,1,2,2,2,5,5,18072017,93017,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,45,F00,3,6,3,11,6,6,18072017,93055,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,45,F00,1,2,1,1,7,7,18072017,93108,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,45,F00,2,6,6,8,8,8,18072017,93114,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,45,F00,3,6,2,10,9,9,18072017,93129,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,45,F00,3,6,6,14,10,10,18072017,93206,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,45,F00,3,6,1,9,11,11,18072017,93219,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,45,F00,2,6,4,6,12,12,18072017,93224,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,45,F00,2,6,3,5,13,13,18072017,93236,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,45,F00,3,6,4,12,14,14,18072017,93243,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,44,C00,3,6,1,9,1,1,18072017,93230,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,44,C00,2,6,3,5,2,2,18072017,93257,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,44,C00,2,6,1,3,3,3,18072017,93305,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,44,C00,3,6,3,11,4,4,18072017,93319,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,44,C00,2,6,5,7,5,5,18072017,93325,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,44,C00,3,6,6,14,6,6,18072017,93339,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,44,C00,3,6,4,12,7,7,18072017,93405,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveTreatmentCondition1,44,C00,2,6,2,4,8,8,18072017,93410,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,44,C00,3,6,2,10,9,9,18072017,93421,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,44,C00,1,2,2,2,10,10,18072017,93425,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,44,C00,1,2,1,1,11,11,18072017,93429,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,44,C00,2,6,6,8,12,12,18072017,93435,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,44,C00,3,6,5,13,13,13,18072017,93445,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,44,C00,2,6,4,6,14,14,18072017,93452,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,43,F00,3,6,2,10,1,1,17072017,170557,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,43,F00,2,6,1,3,2,2,17072017,170620,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,43,F00,1,2,1,1,3,3,17072017,170634,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,43,F00,3,6,5,13,4,4,17072017,170642,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,43,F00,2,6,3,5,5,5,17072017,170701,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,43,F00,2,6,4,6,6,6,17072017,170723,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,43,F00,2,6,2,4,7,7,17072017,170734,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,43,F00,3,6,1,9,8,8,17072017,170750,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,43,F00,3,6,4,12,9,9,17072017,170808,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,43,F00,1,2,2,2,10,10,17072017,170814,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,43,F00,3,6,6,14,11,11,17072017,170824,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,43,F00,3,6,3,11,12,12,17072017,170837,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,43,F00,2,6,6,8,13,13,17072017,170850,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,43,F00,2,6,5,7,14,14,17072017,170856,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,42,B00,2,6,5,7,1,1,18072017,93207,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,42,B00,2,6,2,4,2,2,18072017,93221,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,42,B00,2,6,4,6,3,3,18072017,93226,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,42,B00,3,6,1,9,4,4,18072017,93231,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,42,B00,2,6,6,8,5,5,18072017,93235,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,42,B00,3,6,6,14,6,6,18072017,93243,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,42,B00,1,2,2,2,7,7,18072017,93248,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,42,B00,3,6,3,11,8,8,18072017,93256,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,42,B00,2,6,3,5,9,9,18072017,93304,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,42,B00,3,6,5,13,10,10,18072017,93309,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,42,B00,3,6,4,12,11,11,18072017,93315,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,42,B00,3,6,2,10,12,12,18072017,93320,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,42,B00,1,2,1,1,13,13,18072017,93325,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,42,B00,2,6,1,3,14,14,18072017,93336,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,41,B00,3,6,6,14,1,1,17072017,172343,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,41,B00,1,2,2,2,2,2,17072017,172350,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,41,B00,3,6,1,9,3,3,17072017,172351,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,41,B00,3,6,2,10,4,4,17072017,172352,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,41,B00,2,6,3,5,5,5,17072017,172354,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,41,B00,2,6,5,7,6,6,17072017,172356,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,41,B00,2,6,1,3,7,7,17072017,172406,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,41,B00,2,6,6,8,8,8,17072017,172410,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,41,B00,1,2,1,1,9,9,17072017,172412,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,41,B00,3,6,4,12,10,10,17072017,172413,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,41,B00,2,6,2,4,11,11,17072017,172419,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,41,B00,3,6,5,13,12,12,17072017,172420,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveControl,41,B00,2,6,4,6,13,13,17072017,172421,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,41,B00,3,6,3,11,14,14,17072017,172422,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,40,F00,1,2,1,1,1,1,17072017,142945,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,40,F00,3,6,4,12,2,2,17072017,142954,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,40,F00,3,6,1,9,3,3,17072017,142956,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,40,F00,2,6,5,7,4,4,17072017,143000,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,40,F00,3,6,2,10,5,5,17072017,143004,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,40,F00,3,6,3,11,6,6,17072017,143011,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,40,F00,2,6,3,5,7,7,17072017,143013,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,40,F00,2,6,4,6,8,8,17072017,143015,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,40,F00,2,6,1,3,9,9,17072017,143022,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,40,F00,3,6,5,13,10,10,17072017,143024,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,40,F00,1,2,2,2,11,11,17072017,143027,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,40,F00,2,6,2,4,12,12,17072017,143030,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,40,F00,2,6,6,8,13,13,17072017,143035,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,40,F00,3,6,6,14,14,14,17072017,143041,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,39,A00,2,6,5,7,1,1,18072017,93025,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,39,A00,2,6,2,4,2,2,18072017,93029,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,39,A00,2,6,3,5,3,3,18072017,93032,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveTreatmentCondition1,39,A00,3,6,4,12,4,4,18072017,93038,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,39,A00,1,2,2,2,5,5,18072017,93040,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,39,A00,3,6,3,11,6,6,18072017,93044,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,39,A00,1,2,1,1,7,7,18072017,93049,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,39,A00,2,6,4,6,8,8,18072017,93052,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,39,A00,3,6,1,9,9,9,18072017,93056,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,39,A00,3,6,6,14,10,10,18072017,93059,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,39,A00,3,6,2,10,11,11,18072017,93103,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,39,A00,2,6,6,8,12,12,18072017,93106,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,39,A00,2,6,1,3,13,13,18072017,93108,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,39,A00,3,6,5,13,14,14,18072017,93111,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveTreatmentCondition1,38,B00,2,6,1,3,1,1,17072017,144158,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveTreatmentCondition1,38,B00,1,2,2,2,2,2,17072017,144202,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,38,B00,3,6,6,14,3,3,17072017,144218,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,38,B00,3,6,5,13,4,4,17072017,144220,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,38,B00,3,6,3,11,5,5,17072017,144222,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,38,B00,2,6,6,8,6,6,17072017,144224,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveTreatmentCondition1,38,B00,3,6,2,10,7,7,17072017,144226,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,38,B00,2,6,5,7,8,8,17072017,144228,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,38,B00,2,6,4,6,9,9,17072017,144234,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveTreatmentCondition1,38,B00,3,6,4,12,10,10,17072017,144239,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveTreatmentCondition1,38,B00,1,2,1,1,11,11,17072017,144242,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,38,B00,3,6,1,9,12,12,17072017,144246,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveTreatmentCondition1,38,B00,2,6,3,5,13,13,17072017,144248,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveTreatmentCondition1,38,B00,2,6,2,4,14,14,17072017,144251,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,37,A00,2,6,5,7,1,1,17072017,143006,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,37,A00,2,6,3,5,2,2,17072017,143018,4,halfRandom,control,clockwise,counterclockwise,clockwise,A,B,A
+descriptiveControl,37,A00,2,6,2,4,3,3,17072017,143029,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,B,A,B
+descriptiveControl,37,A00,2,6,1,3,4,4,17072017,143038,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,37,A00,1,2,1,1,5,5,17072017,143044,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,37,A00,2,6,6,8,6,6,17072017,143051,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,37,A00,3,6,2,10,7,7,17072017,143105,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,A,B,B
+descriptiveControl,37,A00,3,6,6,14,8,8,17072017,143119,4,halfRandom,treatment,counterclockwise,clockwise,clockwise,B,A,A
+descriptiveControl,37,A00,3,6,5,13,9,9,17072017,143130,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,37,A00,3,6,1,9,10,10,17072017,143141,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,37,A00,1,2,2,2,11,11,17072017,143147,4,halfRandom,control,counterclockwise,clockwise,counterclockwise,A,B,A
+descriptiveControl,37,A00,3,6,3,11,12,12,17072017,143154,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,A,B,B
+descriptiveControl,37,A00,3,6,4,12,13,13,17072017,143159,4,halfRandom,treatment,clockwise,counterclockwise,counterclockwise,B,A,A
+descriptiveControl,37,A00,2,6,4,6,14,14,17072017,143208,4,halfRandom,control,clockwise,counterclockwise,clockwise,B,A,B
+descriptiveTreatmentCondition1,36, C31,3,6,2,10,1,1,23062017,124710,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,36, C31,2,6,5,7,2,2,23062017,124743,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,36, C31,2,6,4,6,3,3,23062017,124752,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,36, C31,2,6,2,4,4,4,23062017,124756,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,36, C31,2,6,1,3,5,5,23062017,124801,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,36, C31,2,6,6,8,6,6,23062017,124807,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,36, C31,1,2,1,1,7,7,23062017,124813,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,36, C31,3,6,1,9,8,8,23062017,124822,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,36, C31,3,6,5,13,9,9,23062017,124847,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,36, C31,3,6,6,14,10,10,23062017,124903,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,36, C31,3,6,4,12,11,11,23062017,124908,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,36, C31,1,2,2,2,12,12,23062017,124914,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,36, C31,3,6,3,11,13,13,23062017,124957,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,36, C31,2,6,3,5,14,14,23062017,125001,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,35, C31,3,6,1,9,1,1,23062017,124347,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,35, C31,1,2,2,2,2,2,23062017,124359,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,35, C31,2,6,6,8,3,3,23062017,124408,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,35, C31,3,6,6,14,4,4,23062017,124418,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,35, C31,1,2,1,1,5,5,23062017,124423,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,35, C31,3,6,4,12,6,6,23062017,124432,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,35, C31,3,6,2,10,7,7,23062017,124442,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,35, C31,2,6,3,5,8,8,23062017,124447,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,35, C31,2,6,2,4,9,9,23062017,124455,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,35, C31,2,6,5,7,10,10,23062017,124459,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,35, C31,3,6,3,11,11,11,23062017,124515,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,35, C31,3,6,5,13,12,12,23062017,124523,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,35, C31,2,6,1,3,13,13,23062017,124532,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,35, C31,2,6,4,6,14,14,23062017,124537,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,34, C11,1,2,2,2,1,1,23062017,123605,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,34, C11,2,6,5,7,2,2,23062017,123609,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,34, C11,2,6,4,6,3,3,23062017,123614,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,34, C11,1,2,1,1,4,4,23062017,123617,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,34, C11,2,6,1,3,5,5,23062017,123622,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,34, C11,3,6,6,14,6,6,23062017,123635,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,34, C11,3,6,4,12,7,7,23062017,123639,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,34, C11,3,6,2,10,8,8,23062017,123642,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,34, C11,2,6,2,4,9,9,23062017,123646,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,34, C11,3,6,3,11,10,10,23062017,123652,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,34, C11,2,6,3,5,11,11,23062017,123654,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,34, C11,3,6,1,9,12,12,23062017,123659,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,34, C11,3,6,5,13,13,13,23062017,123702,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,34, C11,2,6,6,8,14,14,23062017,123706,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,33, C56,2,6,2,4,1,1,23062017,114851,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,33, C56,2,6,1,3,2,2,23062017,114940,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,33, C56,3,6,2,10,3,3,23062017,115100,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,33, C56,1,2,2,2,4,4,23062017,115117,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,33, C56,2,6,4,6,5,5,23062017,115150,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,33, C56,3,6,6,14,6,6,23062017,115215,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,33, C56,3,6,1,9,7,7,23062017,115227,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,33, C56,3,6,4,12,8,8,23062017,115235,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,33, C56,2,6,6,8,9,9,23062017,115246,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,33, C56,3,6,3,11,10,10,23062017,115258,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,33, C56,2,6,5,7,11,11,23062017,115309,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,33, C56,3,6,5,13,12,12,23062017,115318,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,33, C56,2,6,3,5,13,13,23062017,115327,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,33, C56,1,2,1,1,14,14,23062017,115343,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,32, C51,2,6,3,5,1,1,23062017,115120,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,32, C51,1,2,2,2,2,2,23062017,115129,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,32, C51,3,6,5,13,3,3,23062017,115141,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,32, C51,2,6,2,4,4,4,23062017,115148,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,32, C51,3,6,2,10,5,5,23062017,115159,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,32, C51,3,6,4,12,6,6,23062017,115208,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,32, C51,2,6,6,8,7,7,23062017,115221,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,32, C51,2,6,5,7,8,8,23062017,115234,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,32, C51,3,6,6,14,9,9,23062017,115243,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,32, C51,2,6,4,6,10,10,23062017,115255,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,32, C51,3,6,3,11,11,11,23062017,115306,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,32, C51,1,2,1,1,12,12,23062017,115316,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,32, C51,2,6,1,3,13,13,23062017,115327,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,32, C51,3,6,1,9,14,14,23062017,115337,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,31, C16,1,2,2,2,1,1,23062017,114650,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,31, C16,3,6,3,11,2,2,23062017,114754,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,31, C16,2,6,2,4,3,3,23062017,114804,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,31, C16,3,6,4,12,4,4,23062017,114824,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,31, C16,2,6,5,7,5,5,23062017,114833,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,31, C16,2,6,6,8,6,6,23062017,114845,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,31, C16,2,6,3,5,7,7,23062017,114902,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,31, C16,3,6,5,13,8,8,23062017,114917,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveControl,31, C16,2,6,4,6,9,9,23062017,114930,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,31, C16,2,6,1,3,10,10,23062017,114937,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,31, C16,3,6,2,10,11,11,23062017,115025,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,31, C16,1,2,1,1,12,12,23062017,115032,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,31, C16,3,6,1,9,13,13,23062017,115041,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,31, C16,3,6,6,14,14,14,23062017,115058,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,30, C36,3,6,4,12,1,1,23062017,120308,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,30, C36,2,6,4,6,2,2,23062017,120338,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,30, C36,3,6,5,13,3,3,23062017,120449,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,30, C36,2,6,1,3,4,4,23062017,120457,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,30, C36,3,6,2,10,5,5,23062017,120607,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,30, C36,3,6,3,11,6,6,23062017,120635,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,30, C36,2,6,3,5,7,7,23062017,120645,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,30, C36,3,6,1,9,8,8,23062017,120659,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,30, C36,3,6,6,14,9,9,23062017,120709,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,30, C36,2,6,6,8,10,10,23062017,120723,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,30, C36,2,6,2,4,11,11,23062017,120729,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,30, C36,2,6,5,7,12,12,23062017,120736,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,30, C36,1,2,2,2,13,13,23062017,120750,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,30, C36,1,2,1,1,14,14,23062017,120759,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,29, C31,3,6,5,13,1,1,23062017,112656,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,29, C31,2,6,1,3,2,2,23062017,112720,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,29, C31,2,6,4,6,3,3,23062017,112728,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,29, C31,2,6,5,7,4,4,23062017,112734,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,29, C31,3,6,1,9,5,5,23062017,112740,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,29, C31,3,6,4,12,6,6,23062017,112743,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,29, C31,2,6,2,4,7,7,23062017,112755,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,29, C31,1,2,2,2,8,8,23062017,112807,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,29, C31,2,6,3,5,9,9,23062017,112813,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,29, C31,2,6,6,8,10,10,23062017,112820,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,29, C31,3,6,6,14,11,11,23062017,112832,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,29, C31,1,2,1,1,12,12,23062017,112840,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,29, C31,3,6,3,11,13,13,23062017,112850,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,29, C31,3,6,2,10,14,14,23062017,112909,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,28, C11,1,2,1,1,1,1,23062017,114421,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,28, C11,2,6,6,8,2,2,23062017,114430,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,28, C11,2,6,3,5,3,3,23062017,114443,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,28, C11,2,6,4,6,4,4,23062017,114451,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,28, C11,3,6,5,13,5,5,23062017,114511,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,28, C11,3,6,1,9,6,6,23062017,114525,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,28, C11,2,6,1,3,7,7,23062017,114541,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,28, C11,3,6,2,10,8,8,23062017,114601,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,28, C11,3,6,6,14,9,9,23062017,114653,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,28, C11,3,6,4,12,10,10,23062017,114707,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,28, C11,2,6,5,7,11,11,23062017,114714,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,28, C11,3,6,3,11,12,12,23062017,114725,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,28, C11,2,6,2,4,13,13,23062017,114733,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,28, C11,1,2,2,2,14,14,23062017,114757,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,27, C56,3,6,4,12,1,1,23062017,105545,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,27, C56,1,2,2,2,2,2,23062017,105554,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,27, C56,2,6,2,4,3,3,23062017,105603,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,27, C56,2,6,3,5,4,4,23062017,105615,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,27, C56,2,6,5,7,5,5,23062017,105632,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,27, C56,2,6,6,8,6,6,23062017,105643,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,27, C56,3,6,1,9,7,7,23062017,105655,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,27, C56,3,6,2,10,8,8,23062017,105709,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,27, C56,1,2,1,1,9,9,23062017,105714,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,27, C56,2,6,4,6,10,10,23062017,105722,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,27, C56,3,6,3,11,11,11,23062017,105745,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,27, C56,3,6,6,14,12,12,23062017,105800,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,27, C56,2,6,1,3,13,13,23062017,105810,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,27, C56,3,6,5,13,14,14,23062017,105822,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,26, C16,2,6,1,3,1,1,23062017,103609,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,26, C16,2,6,2,4,2,2,23062017,103621,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,26, C16,3,6,4,12,3,3,23062017,103635,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,26, C16,2,6,5,7,4,4,23062017,103651,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,26, C16,3,6,1,9,5,5,23062017,103704,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,26, C16,2,6,6,8,6,6,23062017,103722,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,26, C16,1,2,2,2,7,7,23062017,103729,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,26, C16,2,6,3,5,8,8,23062017,103735,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,26, C16,3,6,3,11,9,9,23062017,103750,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,26, C16,3,6,6,14,10,10,23062017,103812,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,26, C16,1,2,1,1,11,11,23062017,103817,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,26, C16,2,6,4,6,12,12,23062017,103823,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,26, C16,3,6,5,13,13,13,23062017,103829,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,26, C16,3,6,2,10,14,14,23062017,103837,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,25, C31,2,6,1,3,1,1,23062017,103025,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,25, C31,3,6,5,13,2,2,23062017,103037,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,25, C31,3,6,6,14,3,3,23062017,103056,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,25, C31,3,6,1,9,4,4,23062017,103105,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,25, C31,2,6,2,4,5,5,23062017,103116,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,25, C31,2,6,5,7,6,6,23062017,103135,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,25, C31,3,6,2,10,7,7,23062017,103141,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,25, C31,1,2,2,2,8,8,23062017,103145,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,25, C31,2,6,6,8,9,9,23062017,103152,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,25, C31,2,6,4,6,10,10,23062017,103159,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveControl,25, C31,3,6,3,11,11,11,23062017,103211,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,25, C31,3,6,4,12,12,12,23062017,103224,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,25, C31,2,6,3,5,13,13,23062017,103229,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,25, C31,1,2,1,1,14,14,23062017,103233,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,24, C11,3,6,2,10,1,1,23062017,103211,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,24, C11,3,6,5,13,2,2,23062017,103217,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,24, C11,3,6,4,12,3,3,23062017,103312,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,24, C11,1,2,2,2,4,4,23062017,103322,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,24, C11,3,6,1,9,5,5,23062017,103330,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,24, C11,2,6,1,3,6,6,23062017,103418,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,24, C11,2,6,6,8,7,7,23062017,103426,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,24, C11,2,6,3,5,8,8,23062017,103436,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,24, C11,2,6,4,6,9,9,23062017,103455,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,24, C11,2,6,2,4,10,10,23062017,103510,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,24, C11,3,6,3,11,11,11,23062017,103531,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,24, C11,1,2,1,1,12,12,23062017,103541,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,24, C11,2,6,5,7,13,13,23062017,103545,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,24, C11,3,6,6,14,14,14,23062017,103643,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,23, C56,1,2,1,1,1,1,23062017,100201,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,23, C56,3,6,1,9,2,2,23062017,100229,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,23, C56,3,6,3,11,3,3,23062017,100251,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveControl,23, C56,1,2,2,2,4,4,23062017,100300,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,23, C56,2,6,5,7,5,5,23062017,100314,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveControl,23, C56,2,6,6,8,6,6,23062017,100322,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,23, C56,3,6,2,10,7,7,23062017,100338,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,23, C56,2,6,1,3,8,8,23062017,100349,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,23, C56,3,6,6,14,9,9,23062017,100402,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,23, C56,2,6,2,4,10,10,23062017,100408,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,23, C56,3,6,5,13,11,11,23062017,100429,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,23, C56,2,6,3,5,12,12,23062017,100442,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,23, C56,3,6,4,12,13,13,23062017,100455,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,23, C56,2,6,4,6,14,14,23062017,100507,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,22, C51,2,6,5,7,1,1,23062017,93907,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,22, C51,2,6,3,5,2,2,23062017,93915,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,22, C51,3,6,5,13,3,3,23062017,93923,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,22, C51,3,6,6,14,4,4,23062017,93934,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,22, C51,3,6,4,12,5,5,23062017,93941,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,22, C51,2,6,4,6,6,6,23062017,93949,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,22, C51,1,2,1,1,7,7,23062017,93957,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,22, C51,2,6,1,3,8,8,23062017,94004,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,22, C51,3,6,2,10,9,9,23062017,94009,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,22, C51,2,6,2,4,10,10,23062017,94022,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,22, C51,3,6,3,11,11,11,23062017,94041,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,22, C51,1,2,2,2,12,12,23062017,94051,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,22, C51,2,6,6,8,13,13,23062017,94059,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,22, C51,3,6,1,9,14,14,23062017,94114,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,21, C31,2,6,6,8,1,1,23062017,94014,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveControl,21, C31,3,6,6,14,2,2,23062017,94045,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,21, C31,2,6,3,5,3,3,23062017,94058,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,21, C31,3,6,3,11,4,4,23062017,94126,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,21, C31,1,2,2,2,5,5,23062017,94136,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,21, C31,3,6,4,12,6,6,23062017,94144,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,21, C31,3,6,2,10,7,7,23062017,94153,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,21, C31,2,6,5,7,8,8,23062017,94158,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveControl,21, C31,1,2,1,1,9,9,23062017,94206,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,21, C31,2,6,2,4,10,10,23062017,94214,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,21, C31,2,6,1,3,11,11,23062017,94218,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,21, C31,2,6,4,6,12,12,23062017,94230,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,21, C31,3,6,5,13,13,13,23062017,94236,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,21, C31,3,6,1,9,14,14,23062017,94241,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,20, C11,3,6,3,11,1,1,23062017,94430,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,20, C11,2,6,5,7,2,2,23062017,94443,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,20, C11,3,6,6,14,3,3,23062017,94505,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,20, C11,1,2,2,2,4,4,23062017,94521,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,20, C11,3,6,4,12,5,5,23062017,94538,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,20, C11,3,6,1,9,6,6,23062017,94557,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,20, C11,3,6,2,10,7,7,23062017,94616,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,20, C11,2,6,3,5,8,8,23062017,94628,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,20, C11,2,6,2,4,9,9,23062017,94633,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,20, C11,2,6,1,3,10,10,23062017,94639,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,20, C11,2,6,4,6,11,11,23062017,94646,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,20, C11,1,2,1,1,12,12,23062017,94650,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,20, C11,3,6,5,13,13,13,23062017,94713,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,20, C11,2,6,6,8,14,14,23062017,94719,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,19, C56,3,6,2,10,1,1,22062017,163501,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,19, C56,3,6,3,11,2,2,22062017,163518,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveControl,19, C56,1,2,1,1,3,3,22062017,163528,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,19, C56,2,6,5,7,4,4,22062017,163535,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,19, C56,3,6,4,12,5,5,22062017,163544,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveControl,19, C56,2,6,2,4,6,6,22062017,163552,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,19, C56,2,6,4,6,7,7,22062017,163604,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,19, C56,2,6,6,8,8,8,22062017,163617,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,19, C56,3,6,5,13,9,9,22062017,163629,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,19, C56,1,2,2,2,10,10,22062017,163636,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,19, C56,3,6,6,14,11,11,22062017,163702,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,19, C56,2,6,3,5,12,12,22062017,163707,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,19, C56,2,6,1,3,13,13,22062017,163713,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,19, C56,3,6,1,9,14,14,22062017,163723,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,18, C36,2,6,3,5,1,1,22062017,164321,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,18, C36,3,6,6,14,2,2,22062017,164346,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,18, C36,2,6,1,3,3,3,22062017,164352,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,18, C36,2,6,2,4,4,4,22062017,164359,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,18, C36,2,6,4,6,5,5,22062017,164418,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,18, C36,3,6,5,13,6,6,22062017,164442,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,18, C36,3,6,1,9,7,7,22062017,164453,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,18, C36,2,6,5,7,8,8,22062017,164508,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,18, C36,2,6,6,8,9,9,22062017,164512,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,18, C36,3,6,3,11,10,10,22062017,164542,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,18, C36,3,6,2,10,11,11,22062017,164548,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,18, C36,3,6,4,12,12,12,22062017,164603,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,18, C36,1,2,2,2,13,13,22062017,164609,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,18, C36,1,2,1,1,14,14,22062017,164613,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,17, C16,2,6,6,8,1,1,22062017,162846,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,17, C16,3,6,4,12,2,2,22062017,162921,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,17, C16,2,6,2,4,3,3,22062017,162939,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,17, C16,2,6,4,6,4,4,22062017,162950,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,17, C16,2,6,3,5,5,5,22062017,162959,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,17, C16,3,6,5,13,6,6,22062017,163101,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveControl,17, C16,2,6,5,7,7,7,22062017,163110,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,17, C16,2,6,1,3,8,8,22062017,163118,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,17, C16,1,2,2,2,9,9,22062017,163126,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,17, C16,1,2,1,1,10,10,22062017,163136,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,17, C16,3,6,2,10,11,11,22062017,163150,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,17, C16,3,6,1,9,12,12,22062017,163204,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,17, C16,3,6,6,14,13,13,22062017,163305,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,17, C16,3,6,3,11,14,14,22062017,163358,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,16, C56,2,6,1,3,1,1,22062017,152540,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,16, C56,1,2,2,2,2,2,22062017,152548,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,16, C56,2,6,3,5,3,3,22062017,152600,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,16, C56,3,6,5,13,4,4,22062017,152624,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,16, C56,1,2,1,1,5,5,22062017,152628,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,16, C56,3,6,1,9,6,6,22062017,152638,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,16, C56,3,6,3,11,7,7,22062017,152700,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,16, C56,3,6,4,12,8,8,22062017,152713,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,16, C56,2,6,2,4,9,9,22062017,152728,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,16, C56,3,6,2,10,10,10,22062017,152804,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,16, C56,2,6,5,7,11,11,22062017,152811,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,16, C56,2,6,6,8,12,12,22062017,152822,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,16, C56,2,6,4,6,13,13,22062017,152858,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,16, C56,3,6,6,14,14,14,22062017,152927,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,15, C51,3,6,4,12,1,1,22062017,153145,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,15, C51,3,6,6,14,2,2,22062017,153208,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,15, C51,2,6,2,4,3,3,22062017,153241,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,15, C51,3,6,5,13,4,4,22062017,153335,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,15, C51,2,6,1,3,5,5,22062017,153340,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,15, C51,2,6,4,6,6,6,22062017,153349,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,15, C51,2,6,5,7,7,7,22062017,153405,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveControl,15, C51,1,2,1,1,8,8,22062017,153420,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,15, C51,1,2,2,2,9,9,22062017,153424,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,15, C51,2,6,3,5,10,10,22062017,153448,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveControl,15, C51,2,6,6,8,11,11,22062017,153453,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,15, C51,3,6,3,11,12,12,22062017,153504,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,15, C51,3,6,2,10,13,13,22062017,153515,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,15, C51,3,6,1,9,14,14,22062017,153523,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,14, C31,2,6,4,6,1,1,22062017,152805,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,14, C31,2,6,1,3,2,2,22062017,152815,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,14, C31,3,6,1,9,3,3,22062017,152828,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,14, C31,2,6,3,5,4,4,22062017,152837,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,14, C31,3,6,3,11,5,5,22062017,152845,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,14, C31,3,6,5,13,6,6,22062017,152908,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,14, C31,1,2,2,2,7,7,22062017,152919,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,14, C31,3,6,6,14,8,8,22062017,152933,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,14, C31,3,6,2,10,9,9,22062017,152941,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,14, C31,2,6,2,4,10,10,22062017,152952,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,14, C31,2,6,6,8,11,11,22062017,153001,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,14, C31,2,6,5,7,12,12,22062017,153013,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,14, C31,3,6,4,12,13,13,22062017,153023,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,14, C31,1,2,1,1,14,14,22062017,153028,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,13, C11,3,6,4,12,1,1,22062017,152752,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,13, C11,3,6,5,13,2,2,22062017,152805,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveControl,13, C11,2,6,6,8,3,3,22062017,152822,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,13, C11,1,2,1,1,4,4,22062017,152831,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,13, C11,3,6,1,9,5,5,22062017,152845,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,13, C11,2,6,4,6,6,6,22062017,152851,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,13, C11,3,6,2,10,7,7,22062017,152858,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,13, C11,2,6,1,3,8,8,22062017,152907,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,13, C11,2,6,5,7,9,9,22062017,152911,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,13, C11,2,6,3,5,10,10,22062017,152918,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,13, C11,2,6,2,4,11,11,22062017,152923,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,13, C11,3,6,6,14,12,12,22062017,152953,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,13, C11,1,2,2,2,13,13,22062017,152958,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,13, C11,3,6,3,11,14,14,22062017,153020,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,12, C51,2,6,5,7,1,1,22062017,114916,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,12, C51,2,6,2,4,2,2,22062017,114933,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,12, C51,2,6,3,5,3,3,22062017,114946,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,12, C51,1,2,1,1,4,4,22062017,115000,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,12, C51,3,6,1,9,5,5,22062017,115008,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,12, C51,2,6,4,6,6,6,22062017,115025,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,12, C51,3,6,6,14,7,7,22062017,115046,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,12, C51,3,6,2,10,8,8,22062017,115058,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,12, C51,3,6,4,12,9,9,22062017,115106,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,12, C51,1,2,2,2,10,10,22062017,115114,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,12, C51,2,6,6,8,11,11,22062017,115132,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,12, C51,3,6,5,13,12,12,22062017,115142,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,12, C51,3,6,3,11,13,13,22062017,115223,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,12, C51,2,6,1,3,14,14,22062017,115231,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,11, C31,3,6,6,14,1,1,22062017,114241,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,11, C31,3,6,2,10,2,2,22062017,114321,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,11, C31,3,6,3,11,3,3,22062017,114348,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,11, C31,2,6,2,4,4,4,22062017,114358,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,11, C31,2,6,4,6,5,5,22062017,114415,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,11, C31,2,6,1,3,6,6,22062017,114425,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,11, C31,1,2,1,1,7,7,22062017,114441,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,11, C31,1,2,2,2,8,8,22062017,114453,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,11, C31,2,6,3,5,9,9,22062017,114459,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,11, C31,3,6,5,13,10,10,22062017,114509,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveControl,11, C31,3,6,1,9,11,11,22062017,114520,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,11, C31,2,6,6,8,12,12,22062017,114530,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,11, C31,3,6,4,12,13,13,22062017,114600,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,11, C31,2,6,5,7,14,14,22062017,114604,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,10, C11,1,2,2,2,1,1,22062017,114823,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,10, C11,3,6,4,12,2,2,22062017,114853,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,10, C11,2,6,1,3,3,3,22062017,114909,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,10, C11,2,6,3,5,4,4,22062017,114924,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,10, C11,3,6,5,13,5,5,22062017,114946,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,10, C11,2,6,4,6,6,6,22062017,114959,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,10, C11,2,6,5,7,7,7,22062017,115015,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,10, C11,2,6,6,8,8,8,22062017,115043,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,10, C11,3,6,2,10,9,9,22062017,115106,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,10, C11,3,6,6,14,10,10,22062017,115200,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,10, C11,3,6,3,11,11,11,22062017,115224,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,10, C11,1,2,1,1,12,12,22062017,115230,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,10, C11,2,6,2,4,13,13,22062017,115235,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,10, C11,3,6,1,9,14,14,22062017,115247,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,9, C11,3,6,4,12,1,1,22062017,104606,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,9, C11,1,2,2,2,2,2,22062017,104625,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,9, C11,3,6,5,13,3,3,22062017,104643,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,9, C11,2,6,6,8,4,4,22062017,104700,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,9, C11,3,6,1,9,5,5,22062017,104709,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveControl,9, C11,2,6,4,6,6,6,22062017,104714,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,9, C11,3,6,2,10,7,7,22062017,104722,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,9, C11,2,6,1,3,8,8,22062017,104730,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,9, C11,2,6,2,4,9,9,22062017,104734,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,9, C11,2,6,5,7,10,10,22062017,104743,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,9, C11,2,6,3,5,11,11,22062017,104749,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,9, C11,1,2,1,1,12,12,22062017,104800,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,9, C11,3,6,6,14,13,13,22062017,104806,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,9, C11,3,6,3,11,14,14,22062017,104819,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,8, C41,2,6,1,3,1,1,22062017,94037,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,8, C41,1,2,1,1,2,2,22062017,94053,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,8, C41,3,6,1,9,3,3,22062017,94102,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,8, C41,2,6,5,7,4,4,22062017,94125,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,8, C41,2,6,3,5,5,5,22062017,94137,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,8, C41,3,6,2,10,6,6,22062017,94148,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,8, C41,2,6,2,4,7,7,22062017,94200,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,8, C41,2,6,4,6,8,8,22062017,94212,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,8, C41,2,6,6,8,9,9,22062017,94227,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,8, C41,3,6,5,13,10,10,22062017,94238,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,8, C41,3,6,6,14,11,11,22062017,94306,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,8, C41,3,6,4,12,12,12,22062017,94316,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,8, C41,1,2,2,2,13,13,22062017,94324,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,8, C41,3,6,3,11,14,14,22062017,94349,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,7, C11,3,6,4,12,1,1,22062017,94320,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,7, C11,3,6,5,13,2,2,22062017,94355,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,7, C11,2,6,1,3,3,3,22062017,94403,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,7, C11,3,6,3,11,4,4,22062017,94427,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,7, C11,2,6,4,6,5,5,22062017,94436,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,7, C11,1,2,2,2,6,6,22062017,94451,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,7, C11,3,6,1,9,7,7,22062017,94504,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,7, C11,3,6,2,10,8,8,22062017,94524,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,7, C11,2,6,5,7,9,9,22062017,94535,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,7, C11,2,6,6,8,10,10,22062017,94542,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,7, C11,1,2,1,1,11,11,22062017,94554,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,7, C11,2,6,2,4,12,12,22062017,94558,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,7, C11,3,6,6,14,13,13,22062017,94614,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,7, C11,2,6,3,5,14,14,22062017,94624,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,6, C51,3,6,5,13,1,1,21062017,143743,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,6, C51,3,6,3,11,2,2,21062017,143832,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,6, C51,3,6,1,9,3,3,21062017,143906,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,6, C51,2,6,2,4,4,4,21062017,143920,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,6, C51,2,6,4,6,5,5,21062017,143931,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,6, C51,2,6,1,3,6,6,21062017,143942,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,6, C51,1,2,1,1,7,7,21062017,143949,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,6, C51,2,6,6,8,8,8,21062017,143955,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,6, C51,3,6,2,10,9,9,21062017,144007,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,6, C51,1,2,2,2,10,10,21062017,144016,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,6, C51,2,6,3,5,11,11,21062017,144028,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,6, C51,3,6,6,14,12,12,21062017,144038,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,6, C51,2,6,5,7,13,13,21062017,144055,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,6, C51,3,6,4,12,14,14,21062017,144110,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,5, C31,3,6,5,13,1,1,21062017,143731,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,5, C31,2,6,3,5,2,2,21062017,143756,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,5, C31,2,6,6,8,3,3,21062017,143827,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,5, C31,3,6,2,10,4,4,21062017,143844,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,5, C31,2,6,4,6,5,5,21062017,143906,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,5, C31,3,6,3,11,6,6,21062017,143941,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,5, C31,2,6,2,4,7,7,21062017,143955,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,5, C31,3,6,6,14,8,8,21062017,144048,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,5, C31,1,2,1,1,9,9,21062017,144119,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,5, C31,1,2,2,2,10,10,21062017,144130,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,5, C31,2,6,1,3,11,11,21062017,144140,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,5, C31,3,6,4,12,12,12,21062017,144156,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveControl,5, C31,2,6,5,7,13,13,21062017,144211,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,5, C31,3,6,1,9,14,14,21062017,144226,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,4, C11,2,6,5,7,1,1,21062017,143530,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,4, C11,3,6,5,13,2,2,21062017,143542,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,4, C11,1,2,2,2,3,3,21062017,143549,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,4, C11,3,6,3,11,4,4,21062017,143604,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveTreatmentCondition1,4, C11,3,6,2,10,5,5,21062017,143611,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,4, C11,3,6,6,14,6,6,21062017,143637,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,4, C11,2,6,2,4,7,7,21062017,143643,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,4, C11,2,6,1,3,8,8,21062017,143649,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,4, C11,3,6,4,12,9,9,21062017,143655,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,4, C11,2,6,6,8,10,10,21062017,143701,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,4, C11,2,6,3,5,11,11,21062017,143717,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,4, C11,3,6,1,9,12,12,21062017,143728,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,4, C11,2,6,4,6,13,13,21062017,143735,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,4, C11,1,2,1,1,14,14,21062017,143742,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,3, C66,3,6,2,10,1,1,21062017,114052,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,3, C66,2,6,3,5,2,2,21062017,114059,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,3, C66,2,6,5,7,3,3,21062017,114104,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,3, C66,3,6,3,11,4,4,21062017,114110,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveControl,3, C66,2,6,1,3,5,5,21062017,114133,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveControl,3, C66,1,2,1,1,6,6,21062017,114137,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,3, C66,3,6,6,14,7,7,21062017,114206,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,3, C66,3,6,5,13,8,8,21062017,114210,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,3, C66,2,6,2,4,9,9,21062017,114213,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,3, C66,2,6,4,6,10,10,21062017,114220,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveControl,3, C66,3,6,1,9,11,11,21062017,114226,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,3, C66,3,6,4,12,12,12,21062017,114230,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,3, C66,1,2,2,2,13,13,21062017,114235,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,3, C66,2,6,6,8,14,14,21062017,114237,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,2, C46,1,2,2,2,1,1,21062017,113307,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,2, C46,1,2,1,1,2,2,21062017,113324,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,2, C46,3,6,2,10,3,3,21062017,113341,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,2, C46,2,6,2,4,4,4,21062017,113348,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,2, C46,3,6,1,9,5,5,21062017,113357,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveTreatmentCondition1,2, C46,2,6,3,5,6,6,21062017,113403,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveTreatmentCondition1,2, C46,3,6,4,12,7,7,21062017,113414,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,2, C46,2,6,1,3,8,8,21062017,113432,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveTreatmentCondition1,2, C46,2,6,4,6,9,9,21062017,113443,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,2, C46,3,6,6,14,10,10,21062017,113512,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, B, A, B
+descriptiveTreatmentCondition1,2, C46,2,6,6,8,11,11,21062017,113521,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveTreatmentCondition1,2, C46,3,6,5,13,12,12,21062017,113552,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveTreatmentCondition1,2, C46,3,6,3,11,13,13,21062017,113622,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveTreatmentCondition1,2, C46,2,6,5,7,14,14,21062017,113643,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, B, A, A
+descriptiveControl,1, C26,3,6,5,13,1,1,21062017,113522,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,1, C26,2,6,4,6,2,2,21062017,113535,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,1, C26,3,6,3,11,3,3,21062017,113602,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,1, C26,2,6,6,8,4,4,21062017,113617,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,1, C26,3,6,6,14,5,5,21062017,113645,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,1, C26,3,6,2,10,6,6,21062017,113659,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,1, C26,1,2,2,2,7,7,21062017,113712,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A
+descriptiveControl,1, C26,3,6,4,12,8,8,21062017,113725,4, halfRandom, treatment, counterclockwise, clockwise, clockwise, A, B, B
+descriptiveControl,1, C26,2,6,3,5,9,9,21062017,113738,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,1, C26,2,6,5,7,10,10,21062017,113750,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, A, B, B
+descriptiveControl,1, C26,2,6,1,3,11,11,21062017,113808,4, halfRandom, control, clockwise, counterclockwise, clockwise, A, B, A
+descriptiveControl,1, C26,3,6,1,9,12,12,21062017,113824,4, halfRandom, treatment, clockwise, counterclockwise, counterclockwise, B, A, A
+descriptiveControl,1, C26,2,6,2,4,13,13,21062017,113830,4, halfRandom, control, clockwise, counterclockwise, clockwise, B, A, B
+descriptiveControl,1, C26,1,2,1,1,14,14,21062017,113840,4, halfRandom, control, counterclockwise, clockwise, counterclockwise, A, B, A

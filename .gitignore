@@ -1,0 +1,18 @@
+*.Rproj.user
+*.Rhistory
+*.RData
+*.Ruserdata
+*.Rproj
+*.ipynb_checkpoints
+
+!.gitignore
+
+#Data
+private-data/
+
+.Rproj.user
+.RDataTmp
+
+# Scripts
+main-private.R
+scripts/extra/*
