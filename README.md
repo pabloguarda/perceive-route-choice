@@ -1,6 +1,6 @@
 # Perceived route choices
 
-This repository contains R code that analyzes data gathered from a lab experiment that studies the influence of time perception on route choices in public transport. A preprint that describes the methodology, results and theory is available at this [link](https://arxiv.org/abs/2204.10964)
+This repository contains R code that analyzes data gathered from a lab experiment that studies the influence of time perception on route choices in public transport. A preprint that describes the methodology, results and theory behind these analysis is available at this [link](https://psyarxiv.com/t49kf/). A github repo with the lab experiment can be accessed at this [link](https://github.com/pabloguarda/route-choice-experiment)
 
  
 
