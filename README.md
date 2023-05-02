@@ -2,8 +2,6 @@
 
 This repository contains R code that analyzes data gathered from a lab experiment that studies the influence of time perception on route choices in public transport. A preprint that describes the methodology, results and theory behind these analysis is available at this [link](https://psyarxiv.com/t49kf/). A github repo with the lab experiment can be accessed at this [link](https://github.com/pabloguarda/route-choice-experiment).
 
- 
-
 ## Development setup
 
 1. Clone the repository
@@ -11,10 +9,10 @@ This repository contains R code that analyzes data gathered from a lab experimen
  
 ## Notes
 1. The `scripts` folder contains all scripts that are sourced from the `main.R` script
-2. `setup-libraries.R` installs the libraries and dependencies in your environment. If they had been installed already, the libraries are just loaded. 
+2. The script `setup-libraries.R` installs the libraries in your environment. If they had been installed already, the libraries are just loaded. 
 3. The data is available under the folder `data`
 4. The code is compatible with `R 4.2.3` and it takes less than 5 minutes to be executed on a computer with a processor of 2.3 GHz 8-Core Intel Core i9 and with memory of 16 GB ram.
-5. The code of the experiment designed to collect this dataset is available at https://github.com/pabloguarda/route-choice-experiment
+5. The code of the experiment that was designed to collect this dataset is available at https://github.com/pabloguarda/route-choice-experiment
 
 ## Visualizations
 
