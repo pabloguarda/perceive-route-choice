@@ -769,27 +769,6 @@ DCMResultsNCFixedCSantiago
 
 -1.558563/-1.285038
 
-# Model with generic parameter for travel time 
-
-DCMData0_copy = DCMData0
-DCMData0_copy$w1 = DCMData0_copy$w1 + DCMData0_copy$v1
-DCMData0_copy$w2 = DCMData0_copy$w2 + DCMData0_copy$v2
-
-logitParameters0 <- c(thetaW = 1, thetaV = NULL, thetaT= NULL, thetaDW = NULL, thetaDV = NULL ,constant = NULL
-                      , thetaPW = NULL,thetaPV = NULL, thetaAWT = NULL, thetaAV = NULL, thetaAW = NULL, thetaWeight = NULL)
-
-simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0)
-
-DCMResultsNCFixedCGenericTravelTimeSantiago <- LogitTimePerception(DCMData = DCMData0_copy, logitParameters = logitParameters0, method = "BHHH"
-                                                  , simulationParameters = simulationParameters
-                                                  , sameCurvature = FALSE, sameTimeWeighting = FALSE, boxCox = FALSE)
-DCMResultsNCFixedCGenericTravelTimeSantiago 
-
-
-LogLikTimeTest(DCMResultsNCFixedCSantiago[[2]],DCMResultsNCFixedCGenericTravelTimeSantiago[[2]])
-
-
 #           + London -----------------------------------------------------------------
 
 DCMData0 <- subset(DCMDataRaw, city == "London" & experimentType == "numeric" & experimentalCondition == "control")
@@ -1091,6 +1070,28 @@ DCMResultsAnimatedFixedCSantiago <- LogitTimePerception(DCMData = DCMData0, logi
                                                                    , simulationParameters = simulationParameters
                                                                    , sameCurvature = FALSE, sameTimeWeighting = FALSE, boxCox = FALSE)
 DCMResultsAnimatedFixedCSantiago
+
+# Model with generic parameter for travel time 
+
+DCMData0_copy = DCMData0
+DCMData0_copy$w1 = DCMData0_copy$w1 + DCMData0_copy$v1
+DCMData0_copy$w2 = DCMData0_copy$w2 + DCMData0_copy$v2
+
+logitParameters0 <- c(thetaW = 1, thetaV = NULL, thetaT= NULL, thetaDW = NULL, thetaDV = NULL ,constant = NULL
+                      , thetaPW = NULL,thetaPV = NULL, thetaAWT = NULL, thetaAV = NULL, thetaAW = NULL, thetaWeight = NULL)
+
+simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0)
+
+DCMResultsAnimatedFixedCGenericTravelTimeSantiago <- LogitTimePerception(DCMData = DCMData0_copy, logitParameters = logitParameters0, method = "BHHH"
+                                                                   , simulationParameters = simulationParameters
+                                                                   , sameCurvature = FALSE, sameTimeWeighting = FALSE, boxCox = FALSE)
+DCMResultsAnimatedFixedCGenericTravelTimeSantiago 
+
+
+LogLikTimeTest(DCMResultsAnimatedFixedCSantiago[[2]],DCMResultsAnimatedFixedCGenericTravelTimeSantiago [[2]])
+
+
 #         - London -----------------------------------------------------------------
 
 DCMData0 <- subset(DCMDataRaw, city == "London" & experimentType == "animated")
@@ -1099,7 +1100,7 @@ DCMData0$choice <- DCMData0$realChoice
 #bw = -1.558563
 #bv = -1.285038
 
-logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL ,constant = NULL
+logitParameters0 <- c(thetaW = 0, thetaV = 0, thetaT= NULL, thetaDW = NULL, thetaDV = NULL ,constant = NULL
                       , thetaPW = NULL,thetaPV = NULL, thetaWT = NULL, thetaAWT = NULL, thetaAV = NULL, thetaAW = NULL, thetaWeight = NULL)#, thetaWeight = 1)#, thetaWeight = 1
 
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
@@ -1111,6 +1112,26 @@ DCMResultsAnimatedFixedCLondon <- LogitTimePerception(DCMData = DCMData0, logitP
                                                                  , simulationParameters = simulationParameters
                                                                  , sameCurvature = FALSE, sameTimeWeighting = FALSE, boxCox = FALSE)
 DCMResultsAnimatedFixedCLondon
+
+# Model with generic parameter for travel time 
+
+DCMData0_copy = DCMData0
+DCMData0_copy$w1 = DCMData0_copy$w1 + DCMData0_copy$v1
+DCMData0_copy$w2 = DCMData0_copy$w2 + DCMData0_copy$v2
+
+logitParameters0 <- c(thetaW = 0, thetaV = NULL, thetaT= NULL, thetaDW = NULL, thetaDV = NULL ,constant = NULL
+                      , thetaPW = NULL,thetaPV = NULL, thetaWT = NULL, thetaAWT = NULL, thetaAV = NULL, thetaAW = NULL, thetaWeight = NULL)#, thetaWeight = 1)#, thetaWeight = 1
+
+simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0)
+
+DCMResultsAnimatedFixedCGenericTravelTimeLondon <- LogitTimePerception(DCMData = DCMData0_copy, logitParameters = logitParameters0, method = "BHHH"
+                                                                         , simulationParameters = simulationParameters
+                                                                         , sameCurvature = FALSE, sameTimeWeighting = FALSE, boxCox = FALSE)
+DCMResultsAnimatedFixedCGenericTravelTimeLondon 
+
+
+LogLikTimeTest(DCMResultsAnimatedFixedCLondon[[2]],DCMResultsAnimatedFixedCGenericTravelTimeLondon[[2]])
 
 #       * Numeric ----------------------------------------------------------------
 #         - Santiago -----------------------------------------------------------------
@@ -1135,6 +1156,26 @@ DCMResultsNumericFixedCSantiago<- LogitTimePerception(DCMData = DCMData0, logitP
                                                                  , sameCurvature = FALSE, sameTimeWeighting = FALSE, boxCox = FALSE)
 DCMResultsNumericFixedCSantiago
 
+# Model with generic parameter for travel time 
+
+DCMData0_copy = DCMData0
+DCMData0_copy$w1 = DCMData0_copy$w1 + DCMData0_copy$v1
+DCMData0_copy$w2 = DCMData0_copy$w2 + DCMData0_copy$v2
+
+logitParameters0 <- c(thetaW = 0, thetaV = NULL, thetaT= NULL, thetaDW = NULL, thetaDV = NULL ,constant = NULL
+                      , thetaPW = NULL,thetaPV = NULL, thetaWT = NULL, thetaAWT = NULL, thetaAV = NULL, thetaAW = NULL, thetaWeight = NULL)#, thetaWeight = 1)#, thetaWeight = 1
+
+simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0)
+
+DCMResultsNumericFixedCGenericTravelTimeSantiago <- LogitTimePerception(DCMData = DCMData0_copy, logitParameters = logitParameters0, method = "BHHH"
+                                                                      , simulationParameters = simulationParameters
+                                                                      , sameCurvature = FALSE, sameTimeWeighting = FALSE, boxCox = FALSE)
+DCMResultsNumericFixedCGenericTravelTimeSantiago 
+
+
+LogLikTimeTest(DCMResultsNumericFixedCSantiago[[2]],DCMResultsNumericFixedCGenericTravelTimeSantiago[[2]])
+
 #         - London -----------------------------------------------------------------
 
 DCMData0 <- subset(DCMDataRaw, city == "London" & experimentType == "numeric")
@@ -1155,6 +1196,26 @@ DCMResultsNumericFixedCLondon <- LogitTimePerception(DCMData = DCMData0, logitPa
                                                                 , simulationParameters = simulationParameters
                                                                 , sameCurvature = FALSE, sameTimeWeighting = FALSE, boxCox = FALSE)
 DCMResultsNumericFixedCLondon
+
+# Model with generic parameter for travel time 
+
+DCMData0_copy = DCMData0
+DCMData0_copy$w1 = DCMData0_copy$w1 + DCMData0_copy$v1
+DCMData0_copy$w2 = DCMData0_copy$w2 + DCMData0_copy$v2
+
+logitParameters0 <- c(thetaW = 0, thetaV = NULL, thetaT= NULL, thetaDW = NULL, thetaDV = NULL ,constant = NULL
+                      , thetaPW = NULL,thetaPV = NULL, thetaWT = NULL, thetaAWT = NULL, thetaAV = NULL, thetaAW = NULL, thetaWeight = NULL)#, thetaWeight = 1)#, thetaWeight = 1
+
+simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0)
+
+DCMResultsNumericFixedCGenericTravelTimeLondon <- LogitTimePerception(DCMData = DCMData0_copy, logitParameters = logitParameters0, method = "BHHH"
+                                                                       , simulationParameters = simulationParameters
+                                                                       , sameCurvature = FALSE, sameTimeWeighting = FALSE, boxCox = FALSE)
+DCMResultsNumericFixedCGenericTravelTimeLondon 
+
+
+LogLikTimeTest(DCMResultsNumericFixedCLondon[[2]],DCMResultsNumericFixedCGenericTravelTimeLondon[[2]])
 
 #       * Summary table -------------------------------------------------------
 
@@ -1560,7 +1621,10 @@ for(i in 1:length(DCMModelsExperiment)){
 
 View(t(summmaryTableDCMExperiment))
 
-#       * By city and between subjects condition (animated vs numeric) ----------
+#       * By city and between subjects condition (animated vs numeric) [Paper] ----------
+#         - Santiago ----------------------------------------------------------------
+#           $ Animated --------------------------------------------------------------
+
 
 
 #Animated Santiago
@@ -1582,6 +1646,76 @@ DCMBoxCoxAnimatedSantiago <- LogitTimePerception(DCMData = DCMData0, logitParame
 
 DCMBoxCoxAnimatedSantiago
 
+# # Generic 
+# 
+# DCMData0_copy = DCMData0
+# DCMData0_copy$w1 = DCMData0_copy$w1 + DCMData0_copy$v1
+# DCMData0_copy$w2 = DCMData0_copy$w2 + DCMData0_copy$v2
+# 
+# logitParameters0 <- c(thetaW = 1, thetaV = NULL, thetaT= NULL, thetaDW = NULL, thetaDV = NULL ,constant = NULL
+#                       , thetaPW = 0,thetaPV = NULL, thetaAWT = NULL, thetaAV = NULL, thetaAW = NULL, thetaWeight = NULL)#, thetaWeight = 1)#, thetaWeight = 1
+# 
+# simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 0.9, cv =  1, scale_gumbel = 1
+#                           , betaWeight =1,awt = 0, sw = 0, sv= 0) 
+# 
+# DCMBoxCoxAnimatedGenericTravelTimeSantiago <- LogitTimePerception(DCMData = DCMData0_copy, logitParameters = logitParameters0, method = "BHHH"
+#                                                                    , simulationParameters = simulationParameters
+#                                                                    , sameCurvature = FALSE, sameTimeWeighting = FALSE, boxCox = FALSE)
+# DCMBoxCoxAnimatedGenericTravelTimeSantiago
+# 
+# 
+# LogLikTimeTest(DCMBoxCoxAnimatedSantiago[[2]],DCMBoxCoxAnimatedGenericTravelTimeSantiago[[2]])
+
+LogLikTimeTest(DCMBoxCoxAnimatedSantiago[[2]], DCMResultsAnimatedFixedCGenericTravelTimeSantiago[[2]]) 
+
+
+#           $ Numeric ---------------------------------------------------------------
+
+#Numeric Santiago
+
+DCMData0 <- subset(DCMDataRaw,experimentType == "numeric" & city == "Santiago")
+DCMData0$choice <- DCMData0$realChoice
+
+#Parameters included in the estimation are not null
+logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL ,constant = NULL
+                      , thetaPW = 0,thetaPV = 0, thetaAWT = NULL, thetaAV = NULL, thetaAW = NULL, thetaWeight = NULL)#, thetaWeight = 1)#, thetaWeight = 1
+
+#Set the initial values (cw set the initial value for c)
+simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 0.9, cv =  1, scale_gumbel = 1
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
+
+DCMBoxCoxNumericSantiago <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
+                                                   , simulationParameters = simulationParameters
+                                                   , sameCurvature = TRUE, sameTimeWeighting = FALSE, boxCox = TRUE)
+
+DCMBoxCoxNumericSantiago
+
+# Generic 
+# DCMData0_copy = DCMData0
+# DCMData0_copy$w1 = DCMData0_copy$w1 + DCMData0_copy$v1
+# DCMData0_copy$w2 = DCMData0_copy$w2 + DCMData0_copy$v2
+# 
+# logitParameters0 <- c(thetaW = 1, thetaV = NULL, thetaT= NULL, thetaDW = NULL, thetaDV = NULL ,constant = NULL
+#                       , thetaPW = 0,thetaPV = NULL, thetaAWT = NULL, thetaAV = NULL, thetaAW = NULL, thetaWeight = NULL)#, thetaWeight = 1)#, thetaWeight = 1
+# 
+# simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 0.9, cv =  1, scale_gumbel = 1
+#                           , betaWeight =1,awt = 0, sw = 0, sv= 0) 
+# 
+# DCMBoxCoxNumericGenericTravelTimeSantiago <- LogitTimePerception(DCMData = DCMData0_copy, logitParameters = logitParameters0, method = "BHHH"
+#                                                                   , simulationParameters = simulationParameters
+#                                                                   , sameCurvature = FALSE, sameTimeWeighting = FALSE, boxCox = FALSE)
+# DCMBoxCoxNumericGenericTravelTimeSantiago
+
+
+LogLikTimeTest(DCMBoxCoxNumericSantiago[[2]], DCMResultsNumericFixedCGenericTravelTimeSantiago[[2]])
+
+
+
+#         - London ----------------------------------------------------------------
+#           $ Animated ----------------------------------------------------------------
+
+
+
 #Animated London
 
 DCMData0 <- subset(DCMDataRaw,experimentType == "animated" & city == "London")
@@ -1596,21 +1730,17 @@ simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 0.9, cv =  1, sca
                           , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMBoxCoxAnimatedLondon <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
-                                             , simulationParameters = simulationParameters
-                                             , sameCurvature = TRUE, sameTimeWeighting = FALSE, boxCox = TRUE)
+                                               , simulationParameters = simulationParameters
+                                               , sameCurvature = TRUE, sameTimeWeighting = FALSE, boxCox = TRUE)
 
 DCMBoxCoxAnimatedLondon
 
-#Numeric Santiago
 
-DCMData0 <- subset(DCMDataRaw,experimentType == "numeric" & city == "Santiago")
-DCMData0$choice <- DCMData0$realChoice
+LogLikTimeTest(DCMBoxCoxAnimatedLondon[[2]], DCMResultsAnimatedFixedCGenericTravelTimeLondon[[2]]) 
 
-DCMBoxCoxNumericSantiago <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
-                                                   , simulationParameters = simulationParameters
-                                                   , sameCurvature = TRUE, sameTimeWeighting = FALSE, boxCox = TRUE)
 
-DCMBoxCoxNumericSantiago
+#           $ Numeric ---------------------------------------------------------------
+
 
 # Numeric London
 DCMData0 <- subset(DCMDataRaw,experimentType == "numeric" & city == "London")
@@ -1621,6 +1751,8 @@ DCMBoxCoxNumericLondon <- LogitTimePerception(DCMData = DCMData0, logitParameter
                                             , sameCurvature = TRUE, sameTimeWeighting = FALSE, boxCox = TRUE)
 
 DCMBoxCoxNumericLondon
+
+LogLikTimeTest(DCMBoxCoxNumericLondon[[2]], DCMResultsNumericFixedCGenericTravelTimeLondon[[2]]) 
 
 
 #        + Summary table  -------------------------------------------------------
