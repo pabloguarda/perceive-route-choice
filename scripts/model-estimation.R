@@ -142,6 +142,28 @@ MLEGridSearchOverTimePerceptionRealData <- function(exponents, data, logitParame
   return(estimations)
 }
 
+
+# Loglikelihood ratio test 
+
+LogLikTimeTest <<- function(model_full, model_null){
+  
+  logLik_null <- logLik(model_null)
+  logLik_full <- logLik(model_full)
+  
+  # Calculate the test statistic
+  LRT_statistic <- 2 * (logLik_full - logLik_null)
+  
+  # Degrees of freedom
+  df <- length(coef(model_full)) - length(coef(model_null))
+  
+  # Compute the p-value
+  p_value <- pchisq(LRT_statistic, df, lower.tail = FALSE)
+  
+  cat("LRT Statistic:", LRT_statistic, "\n")
+  cat("P-value:", p_value, "\n")
+  
+}
+
 #     i) All ------------------------------------------------------------------
 #       * Numeric -------------------------------------------------------------
 
@@ -160,7 +182,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsNCFreeC <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                          , simulationParameters = simulationParameters
@@ -201,7 +223,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 0.9, cv =  0.9, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsNCFixedC09 <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                             , simulationParameters = simulationParameters
@@ -224,7 +246,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsNCFixedC <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                           , simulationParameters = simulationParameters
@@ -251,7 +273,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsNTFreeC <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                          , simulationParameters = simulationParameters
@@ -293,7 +315,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 0.9, cv =  0.9, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsNTFixedC09 <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                             , simulationParameters = simulationParameters
@@ -313,7 +335,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsNTFixedC <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                           , simulationParameters = simulationParameters
@@ -337,7 +359,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsNFreeC <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                         , simulationParameters = simulationParameters
@@ -357,7 +379,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 0.9, cv =  0.9, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsNFixedC09 <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                            , simulationParameters = simulationParameters
@@ -377,7 +399,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsNFixedC <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                          , simulationParameters = simulationParameters
@@ -400,7 +422,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsACFreeC <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                          , simulationParameters = simulationParameters
@@ -441,7 +463,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 0.9, cv =  0.9, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsACFixedC09 <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                             , simulationParameters = simulationParameters
@@ -462,7 +484,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsACFixedC <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                           , simulationParameters = simulationParameters
@@ -489,7 +511,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsATFreeC <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                          , simulationParameters = simulationParameters
@@ -526,7 +548,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 0.9, cv =  0.9, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsATFixedC09 <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                             , simulationParameters = simulationParameters
@@ -549,7 +571,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsATFixedC <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                           , simulationParameters = simulationParameters
@@ -574,7 +596,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsAFreeC <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                         , simulationParameters = simulationParameters
@@ -594,7 +616,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 0.9, cv =  0.9, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsAFixedC09 <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                            , simulationParameters = simulationParameters
@@ -614,7 +636,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsAFixedC <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                          , simulationParameters = simulationParameters
@@ -738,7 +760,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsNCFixedCSantiago <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                                   , simulationParameters = simulationParameters
@@ -747,7 +769,25 @@ DCMResultsNCFixedCSantiago
 
 -1.558563/-1.285038
 
+# Model with generic parameter for travel time 
 
+DCMData0_copy = DCMData0
+DCMData0_copy$w1 = DCMData0_copy$w1 + DCMData0_copy$v1
+DCMData0_copy$w2 = DCMData0_copy$w2 + DCMData0_copy$v2
+
+logitParameters0 <- c(thetaW = 1, thetaV = NULL, thetaT= NULL, thetaDW = NULL, thetaDV = NULL ,constant = NULL
+                      , thetaPW = NULL,thetaPV = NULL, thetaAWT = NULL, thetaAV = NULL, thetaAW = NULL, thetaWeight = NULL)
+
+simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0)
+
+DCMResultsNCFixedCGenericTravelTimeSantiago <- LogitTimePerception(DCMData = DCMData0_copy, logitParameters = logitParameters0, method = "BHHH"
+                                                  , simulationParameters = simulationParameters
+                                                  , sameCurvature = FALSE, sameTimeWeighting = FALSE, boxCox = FALSE)
+DCMResultsNCFixedCGenericTravelTimeSantiago 
+
+
+LogLikTimeTest(DCMResultsNCFixedCSantiago[[2]],DCMResultsNCFixedCGenericTravelTimeSantiago[[2]])
 
 
 #           + London -----------------------------------------------------------------
@@ -764,7 +804,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsNCFixedCLondon <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                                 , simulationParameters = simulationParameters
@@ -791,7 +831,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsNTFixedCSantiago <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                                   , simulationParameters = simulationParameters
@@ -814,7 +854,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsNTFixedCLondon <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                                 , simulationParameters = simulationParameters
@@ -839,7 +879,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsACFixedCSantiago <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                                   , simulationParameters = simulationParameters
@@ -847,6 +887,26 @@ DCMResultsACFixedCSantiago <- LogitTimePerception(DCMData = DCMData0, logitParam
 DCMResultsACFixedCSantiago
 
 
+
+# Model with generic parameter for travel time 
+
+DCMData0_copy = DCMData0
+DCMData0_copy$w1 = DCMData0_copy$w1 + DCMData0_copy$v1
+DCMData0_copy$w2 = DCMData0_copy$w2 + DCMData0_copy$v2
+
+logitParameters0 <- c(thetaW = 1, thetaV = NULL, thetaT= NULL, thetaDW = NULL, thetaDV = NULL ,constant = NULL
+                      , thetaPW = NULL,thetaPV = NULL, thetaAWT = NULL, thetaAV = NULL, thetaAW = NULL, thetaWeight = NULL)
+
+simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0)
+
+DCMResultsACFixedCGenericTravelTimeSantiago <- LogitTimePerception(DCMData = DCMData0_copy, logitParameters = logitParameters0, method = "BHHH"
+                                                                   , simulationParameters = simulationParameters
+                                                                   , sameCurvature = FALSE, sameTimeWeighting = FALSE, boxCox = FALSE)
+DCMResultsACFixedCGenericTravelTimeSantiago
+
+
+LogLikTimeTest(DCMResultsACFixedCSantiago[[2]],DCMResultsACFixedCGenericTravelTimeSantiago[[2]])
 
 
 #           + London -----------------------------------------------------------------
@@ -863,7 +923,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsACFixedCLondon <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                                 , simulationParameters = simulationParameters
@@ -871,6 +931,25 @@ DCMResultsACFixedCLondon <- LogitTimePerception(DCMData = DCMData0, logitParamet
 DCMResultsACFixedCLondon
 
 
+# Model with generic parameter for travel time 
+
+DCMData0_copy = DCMData0
+DCMData0_copy$w1 = DCMData0_copy$w1 + DCMData0_copy$v1
+DCMData0_copy$w2 = DCMData0_copy$w2 + DCMData0_copy$v2
+
+logitParameters0 <- c(thetaW = 1, thetaV = NULL, thetaT= NULL, thetaDW = NULL, thetaDV = NULL ,constant = NULL
+                      , thetaPW = NULL,thetaPV = NULL, thetaAWT = NULL, thetaAV = NULL, thetaAW = NULL, thetaWeight = NULL)
+
+simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0)
+
+DCMResultsACFixedCGenericTravelTimeLondon <- LogitTimePerception(DCMData = DCMData0_copy, logitParameters = logitParameters0, method = "BHHH"
+                                                                   , simulationParameters = simulationParameters
+                                                                   , sameCurvature = FALSE, sameTimeWeighting = FALSE, boxCox = FALSE)
+DCMResultsACFixedCGenericTravelTimeLondon
+
+
+LogLikTimeTest(DCMResultsACFixedCLondon[[2]],DCMResultsACFixedCGenericTravelTimeLondon[[2]])
 
 
 #         - Treatment ---------------------------------------------------------------
@@ -888,7 +967,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsATFixedCSantiago <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                                   , simulationParameters = simulationParameters
@@ -909,7 +988,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsATFixedCLondon <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                                 , simulationParameters = simulationParameters
@@ -1006,7 +1085,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsAnimatedFixedCSantiago <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                                                    , simulationParameters = simulationParameters
@@ -1026,7 +1105,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 1, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 1, sw = 0, sv= 0) 
 
 DCMResultsAnimatedFixedCLondon <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                                                  , simulationParameters = simulationParameters
@@ -1048,7 +1127,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 
 DCMResultsNumericFixedCSantiago<- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
@@ -1070,7 +1149,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsNumericFixedCLondon <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                                                 , simulationParameters = simulationParameters
@@ -1136,7 +1215,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsAnimatedFixedCSantiagoInteraction <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                                                    , simulationParameters = simulationParameters
@@ -1156,7 +1235,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 1, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 1, sw = 0, sv= 0) 
 
 DCMResultsAnimatedFixedCLondonInteraction <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                                                  , simulationParameters = simulationParameters
@@ -1178,7 +1257,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 
 DCMResultsNumericFixedCSantiagoInteraction<- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
@@ -1200,7 +1279,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMResultsNumericFixedCLondonInteraction <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                                                 , simulationParameters = simulationParameters
@@ -1267,7 +1346,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 
 #Set the initial values (cw set the initial value for c)
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 0.9, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMBoxCoxCAnimatedControlAll <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                                     , simulationParameters = simulationParameters
@@ -1292,7 +1371,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 
 #Set the initial values (cw set the initial value for c)
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 0.9, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMBoxCoxCAnimatedAll <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                                     , simulationParameters = simulationParameters
@@ -1403,7 +1482,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 
 #Set the initial values (cw set the initial value for c)
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 0.9, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMBoxCoxCAnimatedControlAll <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                                     , simulationParameters = simulationParameters
@@ -1495,7 +1574,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 
 #Set the initial values (cw set the initial value for c)
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 0.9, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMBoxCoxAnimatedSantiago <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                                     , simulationParameters = simulationParameters
@@ -1514,7 +1593,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 
 #Set the initial values (cw set the initial value for c)
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 0.9, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 DCMBoxCoxAnimatedLondon <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
                                              , simulationParameters = simulationParameters
@@ -1600,7 +1679,7 @@ View(t(summmaryTableDCMExperiment))
 # 
 # #Set the initial values (cw set the initial value for c)
 # simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-#                           , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+#                           , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 #Animated
 
@@ -1696,7 +1775,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 
 #Set the initial values (cw set the initial value for c)
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1.5, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 
 #Animated
@@ -1757,7 +1836,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 
 DCMResultsNumericFixedCSantiago <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
@@ -1789,7 +1868,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 
 DCMResultsNumericFixedCLondon <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
@@ -1821,7 +1900,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 
 DCMResultsNumericFixedC <- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
@@ -1848,7 +1927,7 @@ logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thet
 # logitParameters0 <- c(thetaW = 1, thetaV = 2, thetaT= NULL, thetaDW = NULL, thetaDV = NULL,constant = NULL, thetaPW = cw,thetaPV = cv, thetaWeight = NULL)
 
 simulationParameters <- c(bw = 0, bv = 0, aw = 1, av = 1, cw = 1, cv =  1, scale_gumbel = 1
-                          , betaWeight =1,awt = 0, sw = 0, sv= 0) #Si no se sabe parámetro de escala, cambian mucho los resultados de las estimaciones
+                          , betaWeight =1,awt = 0, sw = 0, sv= 0) 
 
 
 DCMResultsAnimatedFixedCInteraction<- LogitTimePerception(DCMData = DCMData0, logitParameters = logitParameters0, method = "BHHH"
